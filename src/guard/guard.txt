@@ -1,0 +1,14 @@
+ AuthGuard.jsx:
+- Test AuthGuard with authenticated and unauthenticated users.
+- Verify redirection to login page.
+- Check access to protected routes.
+
+ for BizGuard.jsx:
+- Test BizGuard with different user roles.
+- Verify redirection to login page for unauthorized users.
+- Check access to protected routes for business users and admins.
+
+for BusinessGuard.jsx:
+- Test BusinessGuard with different user authentication states.
+- Verify redirection to login page for unauthenticated users.
+- Check access to protected routes for authenticated users.

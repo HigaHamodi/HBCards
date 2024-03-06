@@ -1,0 +1,16 @@
+export const textFields = [
+  { id: "title", label: "Title", required: true },
+  { id: "subtitle", label: "Subtitle", required: false },
+  { id: "phone", label: "Phone Number", required: true },
+  { id: "mail", label: "Email", required: true },
+  { id: "description", label: "Description", required: true },
+  { id: "web", label: "Web", required: false },
+  { id: "url", label: "Image URL", required: false },
+  { id: "alt", label: "Image Alt Text", required: false },
+  { id: "state", label: "State", required: true },
+  { id: "country", label: "Country", required: true },
+  { id: "city", label: "City", required: true },
+  { id: "street", label: "Street", required: true },
+  { id: "houseNumber", label: "House Number", required: true },
+  { id: "zip", label: "Zip Code", required: false },
+];
